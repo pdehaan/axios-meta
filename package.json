@@ -1,0 +1,21 @@
+{
+  "name": "axios-meta",
+  "version": "1.0.0",
+  "author": "Peter deHaan <peter@deseloper.com>",
+  "bin": {
+    "axios-meta": "cli.mjs"
+  },
+  "devDependencies": {
+    "axios": "^0.27.2",
+    "cheerio": "^1.0.0-rc.12"
+  },
+  "keywords": [],
+  "license": "MPL-2.0",
+  "main": "lib.mjs",
+  "scripts": {
+    "test-api": "node test.mjs",
+    "test-cli": "./cli.mjs https://11ty.dev/ https://mozilla.org/"
+  },
+  "type": "module",
+  "description": ""
+}
